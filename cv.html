@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yashwin's personal site</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Epilogue", sans-serif;
+        background-color: #b6b2c7;
+        color: #000000;
+      }
+
+      .heading {
+        background-color: aliceblue;
+        font-size: 30px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 500px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 30px;
+        font-weight: 300px;
+        border-radius: 8px;
+      }
+
+      .larimg {
+        width: 1250px;
+        height: 300px;
+        position: relative;
+        border-radius: 8px;
+        background-color: #000000;
+      }
+
+      .header {
+        /* display: flex; */
+        gap: 100px;
+        margin-top: 10px;
+        padding-top: 200px;
+        padding-left: 500px;
+        margin-left: 80px;
+        /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+        padding-left: 60px;
+        align-items: right;
+      }
+      .inn {
+        width: 200px;
+        height: 200px;
+        padding-left: 40px;
+        border-radius: 16px;
+        border-radius: 50%;
+        border: 2px solid white;
+        position: absolute;
+        bottom: 0;
+        transform: translate(0, -50%);
+        right: 40%;
+      }
+      .in {
+        padding-left: 500px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+      }
+
+      .edu {
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        /* box-shadow: 2px 2px 10px black; */
+
+        margin-top: 80px;
+        margin-left: 80px;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        position: relative;
+        border-radius: 8px;
+        background-color: whitesmoke;
+      }
+
+      .ski {
+        width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        /* box-shadow: 2px 2px 10px black; */
+
+        margin-top: 80px;
+        margin-left: 80px;
+        align-items: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        position: relative;
+        border-radius: 8px;
+        background-color: whitesmoke;
+      }
+
+      .btn {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        background: white;
+        border: none;
+        stroke: yellow;
+        box-shadow: 2px 2px 10px grey;
+        cursor: pointer;
+      }
+
+      .btnleft {
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .btnright {
+        right: 0;
+        top: 50%;
+        transform: translate(50%, -50%);
+      }
+
+      .btn--left {
+        stroke: black;
+      }
+      a {
+        font-size: 20px;
+        font-weight: 200px;
+        text-decoration: none;
+        color: black;
+      }
+
+      .dot {
+        height: 12px;
+        width: 12px;
+        background-color: white 2px;
+        border-color: black;
+        border-radius: 50px;
+      }
+      .dots {
+        display: flex;
+        position: absolute;
+        bottom: -22px;
+        gap: 20px;
+      }
+
+      .fle {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heading">Yashwin Belliappa</div>
+    <div class="larimg"></div>
+
+    <img src="images.jpg" alt="yashwinimg" class="inn" />
+
+    <div class="in">
+      <h1>YASHWIN BELLIAPPA</h1>
+      <p>I'm an Mechanical Engineer and web developer</p>
+    </div>
+    <div class="fle">
+      <div class="edu">
+        <h1>EDUCATION</h1>
+        <a href="https://www.canaraengineering.in/"
+          >Canara Engineering College</a
+        >
+        <p>2016-2020</p>
+
+        <button class="btn btnleft">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="btn--left"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+        </button>
+
+        <button class="btn btnright">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="btn--right"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </button>
+        <div class="dots">
+          <button class="dot">&nbsp</button>
+          <button class="dot">&nbsp</button>
+        </div>
+      </div>
+
+      <div class="ski">
+        <h1>SKILL</h1>
+        <a href="https://www.canaraengineering.in/">ios development</a>
+        <p>⭐⭐⭐⭐⭐</p>
+
+        <button class="btn btnleft">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="btn--left"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15 19l-7-7 7-7"
+            />
+          </svg>
+        </button>
+
+        <button class="btn btnright">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="btn--right"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </button>
+        <div class="dots">
+          <button class="dot">&nbsp</button>
+          <button class="dot">&nbsp</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
